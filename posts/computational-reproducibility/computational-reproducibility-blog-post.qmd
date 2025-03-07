@@ -1,0 +1,86 @@
+---
+title: "Reproducibility matters"
+subtitle: "Making the case for computationally reproducible research"
+author: "Tom Slater"
+date: "03/07/2025"
+format: 
+  html:
+    embed-resources: true
+    self-contained-math: true
+editor: visual
+theme: flatly
+title-block-banner: true
+title-block-banner-colour: "#00008B"
+citeproc: true
+image: "python_code_image.jpg"
+categories: [Information]
+---
+
+Reproducibility is the gold standard of research. I would argue it is not only important, but *essential* for scientific work and it is something that can certainly be achievable. Keep reading to find out what reproducibility is, why it is crucial and how you can make your own computational work more reproducible.
+
+***Time to read:** 4 minutes*
+
+\vspace{4pt}
+
+![https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-code-on-it-ieic5Tq8YMk (C.Ried, 2018)](python_code_image.jpg){width="80%"}
+
+\vspace{2em}
+
+**WHAT IS COMPUTATIONAL REPRODUCIBILITY?**
+
+Research is said to be ***computationally reproducible*** if its results can be obtained from the data, methods and code outlined by the author(s) \[1\].
+
+In other words, if another researcher - separate from the original team - can reach the same outputs using the exact same approach, then full reproducibility has been achieved. If only some results can be obtained, we may refer to this as partial reproducibility.
+
+**WHY SHOULD WE BE BOTHERED ABOUT REPRODUCIBILITY?**
+
+Ziemann et al. rightly stress the negative implications of work that cannot be reproduced \[2\] (I highly recommend reading their paper). At the very least, irreproducible research can stunt development. It is much harder to share work with minimal or even no attempt to outline the methods and code. Learning from this becomes impossible. More dangerously, irreproducible work cannot be verified and so its credibility remains doubtful. Without trust in one's work, increased resistance between research and policymakers is to be expected, and even if the work is accepted, how do we know acting on the conclusions is safe, if it has not been verified? Needless to say, reproducible research is vital.
+
+**HOW CAN COMPUTATIONAL REPRODUCIBILITY BE ASSESSED?**
+
+Reproducibility can be assessed by working through a paper's methods and running any associated code to obtain the key results \[1\]. If consistent, though not necessarily identical, outputs are achieved, then the research can be deemed reproducible. This should be done within a reasonable time-frame, at the discretion of the individual researcher.
+
+**REPRODUCIBILITY VS REPLICABILITY**
+
+Replicability is often mentioned in conjunction with reproducibility, but the two should not be confused. Replicable work refers to the achievement of consistent results across several studies, possibly using different methods and data \[1\]. On the contrary, reproducibility is strictly concerned with use of the same methods. Both are certainly important for the advancement of science, but attaining replicable work is somewhat out of a researcher's control. Reproducible work should, however, always be expected if best practices have been followed.
+
+**TIPS TO IMPROVE COMPUTATIONAL REPRODUCIBILITY**
+
+Being accountable to even simple rules can drastically improve computational reproducibility. Researchers should \[3\] (if possible):
+
+-   **Share code and data:** code and data should be made publicly available, follow coding guidelines and ought to run without much modification required.
+
+-   **Use random seeds**: for stochastic models, seeds should be used to ensure randomness is consistent.
+
+-   **Specify package versions**: packages change over time and can render code to become outdated (and thus not reproducible).
+
+-   **Fully detail methods**: the computational model should be explained in its entirety.
+
+-   **Provide an ORCID iD**: authors with ORCID iD can be more easily identified and contacted \[4\].
+
+This list is certainly not exhaustive. More rigorous reproducibility frameworks exist for specific models and I encourage you to look at any relevant to you. For simulation models check out <https://doi.org/10.1080/17477778.2018.1442155> \[5\].
+
+**FREE AND OPEN SOURCE SOFTWARE**
+
+Opting for free and open source software (FOSS) is essential where reproducibility is concerned. Under FOSS, users are able to share and modify code freely \[6\]. Naturally, this leads to more collaborative research and crucially allows others to develop and verify computational results. Researchers should therefore aim to use FOSS where possible.
+
+**ARE WE IN A STATE OF CRISIS?**
+
+With a vast existence of irreproducible work, science finds itself deep into a *'reproducibility crisis'* \[7,8\], or so people say. But is it really that serious? It certainly was nearly a decade ago: in 2016, *Nature* found that over 70% of reproduction attempts were failed by scientists \[9\], highlighting just how bad the problem was. Nine years on and the issue is still very relevant \[10\], though the extent to which is unclear. Nonetheless, action is still required now and so if it helps to highlight the severity of irreproducible research, then I will gladly agree that we are in a crisis.
+
+**FINAL REMARKS**
+
+I hope this post has convinced you that reproducible work does indeed matter. The reproducibility crisis can be tackled, but it starts with individual accountability. So start now!
+
+**REFERENCES**
+
+1.  Understanding Reproducibility and Replicability. National Academies of Sciences, Engineering, and Medicine. 2019. Reproducibility and Replicability in Science.
+2.  Ziemann, M., Poulain, P., and Bora, A., The five pillars of computational reproducibility: bioinformatics and beyond. Brief Bioinform, 2023. 24(6).
+3.  Sandve, G.K., et al., Ten simple rules for reproducible computational research. PLoS Comput Biol, 2013. 9(10): p. e100328
+4.  ORCID iDs at Springer Nature. \[Accessed: 6 March 2025\]; Available from: <https://www.springernature.com/gp/researchers/orcid.>
+5.  Monks, T., et al. Strengthening the reporting of empirical simulation studies: Introducing the STRESS guidelines. Journal of Simulation, 2018, *13*(1), 55–67.
+6.  Fortunato, L. and Galassi, M.,The case for free and open source software in research and scholarship. Philosophical Transactions of the Royal Society A, 2021. 379(2197).
+7.  Monks, T., et al., The simulation reproducibility crisis. Can reporting guidelines help? 2017 (Operational Research Society): p. 211-218.
+8.  Hudson, R., Should We Strive to Make Science Bias-Free? A Philosophical Assessment of the Reproducibility Crisis. Journal for General Philosophy of Science, 2021. 52(3): p. 389-405.
+9.  Baker, M., 1,500 scientists lift the lid on reproducibility. Nature, 2016. 533(7604): p. 452-454.
+10. Calnan, M., et al., Understanding and tackling the reproducibility crisis – Why we need to study scientists’ trust in data. Pharmacological Research, 2024. 199: p. 107043.

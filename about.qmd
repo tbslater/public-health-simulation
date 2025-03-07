@@ -1,0 +1,30 @@
+---
+title: "About"
+image: blog_image_me.jpg
+about:
+  template: jolla
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:tbs204@exeter.ac.uk"
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/thomas-slater-140107215/
+    - icon: github
+      text: Github
+      href: https://github.com/tbslater
+---
+
+Hey, I'm Tom! Thanks for checking out my blog! 
+
+I'll be covering all things public health and simulation on this platform, so keep an eye out for some exciting posts. In the meantime, have a read of what is already out!
+
+Just a bit of background on me! I am a PhD student at University of Exeter, officially settled in the department of Mathematics and Statistics. My work looks at a hybrid system dynamics and agent-based approach to address inequalities in physical activity interventions. So although on paper I'm a statistician, I have begun to branch out into the fields of data science, OR, public health and policy analysis too. And I hope to cover all areas (at some point) in this blog.
+
+If you'd like to get in tough, feel free to drop me an email at <tbs204@exeter.ac.uk> or reach out on LinkedIn. 
+
+Hope you enjoy the blog! 
+
+Tom
+
+
