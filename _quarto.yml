@@ -2,10 +2,12 @@ project:
   type: website
 
 website:
-  title: "public-health-simulation"
+  title: "Public Health Simulation"
   navbar:
     right:
       - about.qmd
+      - icon: envelope
+        href: "mailto: tbs204@exeter.ac.uk"
       - icon: github
         href: https://github.com/
       - icon: twitter
