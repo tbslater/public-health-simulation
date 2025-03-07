@@ -10,8 +10,8 @@ website:
         href: "mailto:tbs204@exeter.ac.uk"
       - icon: github
         href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/thomas-slater-140107215/
 format:
   html:
     theme: flatly
