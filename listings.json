@@ -2,7 +2,6 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/reproducing-huang-et-al/huang-blog-post.html",
       "/posts/computational-reproducibility/computational-reproducibility-blog-post.html"
     ]
   }
