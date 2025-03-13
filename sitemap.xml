@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tbslater.github.io/public-health-simulation/posts/computational-reproducibility/computational-reproducibility-blog-post.html</loc>
-    <lastmod>2025-03-13T09:54:16.620Z</lastmod>
-  </url>
-  <url>
-    <loc>https://tbslater.github.io/public-health-simulation/index.html</loc>
-    <lastmod>2025-03-13T09:54:16.620Z</lastmod>
+    <lastmod>2025-03-13T11:21:12.644Z</lastmod>
   </url>
   <url>
     <loc>https://tbslater.github.io/public-health-simulation/about.html</loc>
-    <lastmod>2025-03-13T09:54:16.619Z</lastmod>
+    <lastmod>2025-03-13T11:21:12.643Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tbslater.github.io/public-health-simulation/index.html</loc>
+    <lastmod>2025-03-13T11:21:12.644Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tbslater.github.io/public-health-simulation/posts/reproducing-huang-et-al/huang-blog-post.html</loc>
+    <lastmod>2025-03-13T11:21:12.651Z</lastmod>
   </url>
 </urlset>
