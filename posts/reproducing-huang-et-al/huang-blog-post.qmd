@@ -13,6 +13,8 @@ title-block-banner: true
 title-block-banner-colour: "#00008B"
 citeproc: true
 csl: diabetologia.csl
+image: "figures/huang_fig1_original.jpg"
+categories: [Analysis]
 ---
 
 This article documents a reproducibility analysis of a 2019 paper by Huang et al. in health simulation. I will make extensive reference to the paper throughout the report and so to give full recognition to the authors, the reference is provided below.
