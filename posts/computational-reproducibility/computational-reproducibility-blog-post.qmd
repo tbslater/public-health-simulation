@@ -13,7 +13,7 @@ title-block-banner: true
 title-block-banner-colour: "#00008B"
 citeproc: true
 image: "python_code_image.jpg"
-categories: [Information]
+categories: [Information][Reproducibility]
 ---
 
 Reproducibility is the gold standard of research. I would argue it is not only important, but *essential* for scientific work and it is something that can certainly be achievable. Keep reading to find out what reproducibility is, why it is crucial and how you can make your own computational work more reproducible.
