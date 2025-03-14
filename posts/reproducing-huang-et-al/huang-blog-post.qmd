@@ -17,8 +17,6 @@ image: "figures/huang_fig1_original.jpg"
 categories: [Analysis, Reproducibility, R]
 ---
 
-***Time to read:** 8 minutes*
-
 This article documents a reproducibility analysis of a 2019 paper by Huang et al. in health simulation \[1\]. I will make extensive reference to the paper throughout the report and so to give full recognition to the authors, the reference is provided below.
 
 ::: {.callout-note icon="false"}
@@ -34,6 +32,8 @@ The code associated with the paper can be found on GitHub \[2\] and is freely av
 
 Huang, S., et al. desECR. 2019 \[Accessed: 13/03/2025\]; Available from: <https://github.com/shiweih/desECR.git.>
 :::
+
+***Time to read:** 8 minutes*
 
 ## INTRODUCTION
 
