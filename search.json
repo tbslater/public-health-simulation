@@ -25,7 +25,7 @@
     "href": "posts/reproducing-huang-et-al/huang-blog-post.html",
     "title": "Reproducibility analysis: Huang et al. (2019)",
     "section": "",
-    "text": "Time to read: 8 minutes\nThis article documents a reproducibility analysis of a 2019 paper by Huang et al. in health simulation [1]. I will make extensive reference to the paper throughout the report and so to give full recognition to the authors, the reference is provided below.\nThe code associated with the paper can be found on GitHub [2] and is freely available under the GPL-3.0 licence."
+    "text": "This article documents a reproducibility analysis of a 2019 paper by Huang et al. in health simulation [1]. I will make extensive reference to the paper throughout the report and so to give full recognition to the authors, the reference is provided below.\nThe code associated with the paper can be found on GitHub [2] and is freely available under the GPL-3.0 licence.\nTime to read: 8 minutes"
   },
   {
     "objectID": "posts/reproducing-huang-et-al/huang-blog-post.html#introduction",
