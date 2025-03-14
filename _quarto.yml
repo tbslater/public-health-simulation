@@ -8,6 +8,8 @@ website:
       - about.qmd
       - icon: envelope
         href: "mailto:tbs204@exeter.ac.uk"
+      - text: "{{< iconify fa-brands:orcid >}}"
+        href: https://orcid.org/0009-0007-0838-7499
       - icon: github
         href: https://github.com/
       - icon: linkedin
