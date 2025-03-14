@@ -1,5 +1,5 @@
 ---
-title: "Reproducibility Analysis: Huang et al. (2019)"
+title: "Reproducibility analysis: Huang et al. (2019)"
 subtitle: "A reproducibility analysis of discrete-event simulation in healthcare"
 author: "Tom Slater"
 date: "03/14/2025"
@@ -16,6 +16,8 @@ csl: diabetologia.csl
 image: "figures/huang_fig1_original.jpg"
 categories: [Analysis, Reproducibility, R]
 ---
+
+***Time to read:****8 minutes*
 
 This article documents a reproducibility analysis of a 2019 paper by Huang et al. in health simulation \[1\]. I will make extensive reference to the paper throughout the report and so to give full recognition to the authors, the reference is provided below.
 
@@ -65,7 +67,7 @@ Huang et al. were interested in how patient waiting times and resource usage var
 
 The impact of adding an extra one and two hours to daytime shifts was also trialled under each of these scenarios.
 
-The key results of the paper are figures 2-5, as well as a supplementary figure, which was submitted with the article. The success of my reproduction attempts will be directly assessed against these five plots.
+The key results of the paper are figures 2-5, as well as a supplementary figure, which was submitted with the article. The success of my reproduction attempts were directly assessed against these five plots.
 
 ## CODE
 
@@ -142,7 +144,7 @@ It was clear from the paper that the output of figure 4 was just a function of t
 
 It should be said that the intention of this article is not to criticise the work of Huang et al. It is merely meant to advocate for the need for reproducibility and to document my attempts to reproduce this particular piece of work. Huang et al. should be commended for their strong research: they successfully constructed a complex DES model and achieved some substantial and impactful results. Nonetheless, it is my conclusion that their work is not able to be reproduced. Importantly, this is my conclusion. The results obtained are exclusively my attempts and it may be that others can in fact reproduce the figures successfully. But to the best of my ability I believe it cannot be done. So, despite a thorough piece of research, the paper cannot be verified. I would, however, argue that Huang et al. have provided us with something that can be easily manipulated and developed for use in a similar healthcare application. Their code was very readable and ran well, it was just the specific plots that proved problematic.
 
-Advocating for computationally reproducibility, I ought to make sufficient attempts to ensure the results in this article are themselves reproducible. In light of this, I have upload my code to GitHub <https://github.com/tbslater/huang-reproducibility-analysis.git>. Please do get in touch if you have any questions or feedback from this piece of analysis.
+Advocating for computationally reproducibility, I ought to make sufficient attempts to ensure the results in this article are themselves reproducible. In light of this, I have upload my code to GitHub <https://github.com/tbslater/huang-reproducibility-analysis.git>. Please do not hesitate to get in touch if you have any questions or feedback from this piece of analysis.
 
 ## REFERENCES
 
