@@ -13,6 +13,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/tbslater
+    - text: "{{< iconify fa-brands:orcid >}}"
+      text: ORCID iD
+      href: https://orcid.org/0009-0007-0838-7499
 ---
 
 Hey, I'm Tom! Thanks for checking out my blog!
