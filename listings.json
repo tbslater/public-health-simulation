@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/reproducing-archbold-et-al/archbold-blog-post.html",
       "/posts/reproducing-huang-et-al/huang-blog-post.html",
       "/posts/computational-reproducibility/computational-reproducibility-blog-post.html"
     ]
